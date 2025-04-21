@@ -1,8 +1,9 @@
-firmware_security/
-├── main.py
-├── device.py
-├── firmware.py
-├── update_manager.py
-├── attacker.py
-├── utils.py
-└── test_results.csv
+firmware-security-simulation/
+├── main.py                  # Entry point: runs all test cases
+├── device.py                # IoT device logic with secure boot
+├── firmware.py              # Generates signed firmware
+├── attacker.py              # Creates unsigned malicious firmware
+├── utils.py                 # Signing, verification, and logging functions
+├── test_results.csv         # Output: logs results of each test scenario
+├── README.md                # Project overview, hypothesis, setup, analysis
+├── README_Submission_Formatted.docx   # Formal submission version of README
