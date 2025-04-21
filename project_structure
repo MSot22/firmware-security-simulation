@@ -1,0 +1,8 @@
+firmware_security/
+├── main.py
+├── device.py
+├── firmware.py
+├── update_manager.py
+├── attacker.py
+├── utils.py
+└── test_results.csv
